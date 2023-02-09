@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+  <script defer src="javascript.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>Fundación "Nochipa"</header>
+  <img src="ludo.jpg" height="400" width="1100" aling="center">
+  <main>
+    <h1>¡Lo que se aprende jugando,nunca se olvida!</h1>
+    <br>
+    <br>
+
+    <p>¡Dona felicidad y ayuda a desarrollas las habilidades de niñas y niños! <br> necesitamos juguetes para éstas áreas</p>
+  </main>
+  <br>
+  <ul>
+    <li>1. Motricidad fina</li>
+    <li>2. Motricidad gruesa</li>
+    <li>3. Pensamiento y lenguaje</li>
+    <li>4. Razonamiento lógico matemático</li>
+    <li>5. Socioafectividad</li>
+  </ul>
+  <br>
+  <p>Elige los juguetes a donar, y realizaremos el cargo a tu tarjeta de crédito</p>
+  <table>
+    <tr>
+      <th>ÁREA</th>
+      <th>JUGUETE</th>
+      <th>PRECIO</th>
+    </tr>
+    <tr>
+      <td>M.F</td>
+      <td>Juego de ensarte</td>
+      <td>$170</td>
+    </tr>
+    <tr>
+      <td>M.G</td>
+      <td>Circuito neuromotor</td>
+      <td>$4000</td>
+    </tr>
+    <tr>
+      <td>P.L</td>
+      <td>Teatrino</td>
+      <td>$800</td>
+    </tr>
+    <tr>
+      <td>R.L.M</td>
+      <td>Tablero de ajedrez</td>
+      <td>$200</td>
+    </tr>
+    <tr>
+      <td>S.A</td>
+      <td>Botella de la calma</td>
+      <td>$100</td>
+    </tr>
+  </table>
+
+  <h3>Ingresa los datos de tu tarjeta de modo seguro</h3>
+  <div class="contenedor">
+
+  <label for="Ingresa tu número">Ingresa los 16 dígitos de tu tarjeta</label>
+  <!--placeholder para que aparezca en elrecuadro de texto-->
+  <input type="number" maxlength="16" min="5" id="cardnumber" required="" placeholder="número de tarjeta"
+    oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" />
+
+  <button id="btn-validar">Validar </button>
+</div>
+
+  <!--div sirve para seccionar-->
+  <div id="result"></div>
+  <!--Id atributos, no utilizar el mismo nombre para diferentes Id-->
+  
+
+  
+
+  
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
