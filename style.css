@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #FCE700;
+    border-bottom: solid 5px #ea047e;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: #FCE700;
+}
+
+
+body {
+    background-image: linear-gradient(to right, #00f5ff 0%, #FCE700 100%);
+
+}
+
+p {
+    color: #ea047e;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+th {
+    color: #9900fd;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    color: gray;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    color:#ea047e;
+    font-style: cursive; 
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    color: #540375;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+ul {
+    color: #a31acb;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center
+}
+
+h3 {
+    color: #f900bf;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center
+}
+
+label {
+    color: #10a19d;
+    font-family: cursive;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center
+}
+
+
+div {
+    color: #f900bf;
+    font-family: cursive;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center
+}
+
+.btn-validar {
+    border: 10px solid #540375
+}
+.contenedor{
+    width: 90%;
+    max-width: 400px;
+    padding: 40px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;/*flex para centrar pero lo centramos en columna, una debajo de la otra*/
+    align-items: center;
+    background-image: linear-gradient(to right, #00f5ff 0%, #f5ea5a 100%);
+    border-radius: 15px;
+    margin-bottom: 5px;
+    border-radius : #10a19d;
+}
+
+
