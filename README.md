@@ -1,6 +1,5 @@
 # Tarjeta de crédito válida
 
-Descripción del Proyecto: Validación de Tarjeta de Crédito mediante el Algoritmo de Luhn
 
 Este proyecto tiene como objetivo principal implementar un programa que permita validar si una tarjeta de crédito es válida utilizando el algoritmo de Luhn. Además, se desarrollará una interfaz de usuario amigable que brinde a la usuaria la capacidad de verificar la validez de su tarjeta de crédito.
 
