@@ -30,7 +30,8 @@ En la páginapueden encontrat las áreas de desarrollo de niñas y niños que s 
 Se puede entrar a la aplicación y ver los juguetes que se necesitan para donar, tiene una caja de texto para que loingrese y se manda en automatico una respuesta de validación que realicé utilizando el algoritmo de Luhn, que dice si es válida, tuve  que utilizar Array para dividir el string para separar los números y hacer las operaciones, en la marte b use Maskify para enmascarar los números que solicitaba el Readme, y por último el estilo.
 Se muestra una pagina con una imagen de unaludoteca, tiene el nombre de la ludoteca y contiene una tabla que tiene movimiento cuando se coloca el puntero en una celda, utilicé una paleta de colores para que se viera mas uniforme.
 
-![image](https://github.com/Xoch09/Xoch09.github.io/assets/122556265/49d5bb22-8323-4b7e-b20f-6605c14bafed)
 
+
+![CARD](https://github.com/Xoch09/Xoch09.github.io/assets/122556265/5f276173-6c41-47b8-9418-000c51a18ec5)
 
 
